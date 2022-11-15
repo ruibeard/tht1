@@ -37,7 +37,7 @@
             @endif
 
             @php
-                $user = Users::first(1);
+                $user = App\Models\User::first();
             @endphp
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
